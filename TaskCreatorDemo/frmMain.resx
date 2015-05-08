@@ -157,8 +157,8 @@ var task = taskService.GetTask(taskName);
 taskService.RootFolder.RegisterTask(taskName, 
   task.Xml, 
   TaskCreation.CreateOrUpdate, 
-  @"mbsi\TaskMonService", 
-  "Pizza3.1415", 
+  @"domain\username", 
+  "-password", 
   TaskLogonType.InteractiveTokenOrPassword, 
   null);
 </value>
